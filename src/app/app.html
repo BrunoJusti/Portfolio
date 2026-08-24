@@ -1,10 +1,12 @@
 <header class="navbar">
-  <a class="logo" href="#inicio">BRUNO<span>.DEV</span></a>
+  <a class="logo" href="#inicio">
+    BRUNO<span>.DEV</span>
+  </a>
 
   <nav>
     <a href="#sobre">Sobre</a>
     <a href="#experiencia">Experiência</a>
-    <a href="#tecnologias">Tecnologias</a>
+    <a href="#stack">Stack</a>
     <a href="#projetos">Projetos</a>
     <a href="#contato">Contato</a>
   </nav>
@@ -13,6 +15,7 @@
 
 <main>
 
+  <!-- HERO -->
   <section id="inicio" class="hero">
 
     <div class="hero-content">
@@ -27,11 +30,13 @@
       </h1>
 
       <p class="hero-description">
-        Desenvolvedor focado na construção de aplicações web
-        utilizando Java, Spring Boot, Angular e TypeScript.
+        Desenvolvedor focado na construção de aplicações web,
+        APIs REST e sistemas de negócio utilizando Java,
+        Spring Boot, Angular e TypeScript.
       </p>
 
       <div class="hero-actions">
+
         <a href="#projetos" class="button primary">
           Ver projetos
         </a>
@@ -39,6 +44,25 @@
         <a href="#contato" class="button secondary">
           Entre em contato
         </a>
+
+      </div>
+
+      <div class="hero-links">
+
+        <a
+          href="https://github.com/BrunoJusti"
+          target="_blank"
+          rel="noopener noreferrer">
+          GitHub ↗
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/brunojustidev/"
+          target="_blank"
+          rel="noopener noreferrer">
+          LinkedIn ↗
+        </a>
+
       </div>
 
     </div>
@@ -46,144 +70,467 @@
   </section>
 
 
+  <!-- SOBRE -->
   <section id="sobre" class="section">
 
-    <p class="section-label">01 — SOBRE</p>
+    <p class="section-label">
+      01 — SOBRE
+    </p>
 
     <h2>
       Construindo soluções,
       <span>linha por linha.</span>
     </h2>
 
-    <p class="section-description">
-      Sou desenvolvedor Full Stack Jr. com experiência no desenvolvimento
-      de aplicações web utilizando tecnologias modernas de frontend e backend.
-    </p>
+    <div class="about-content">
+
+      <p class="section-description">
+        Sou desenvolvedor Full Stack Jr. com experiência no
+        desenvolvimento e manutenção de aplicações web.
+      </p>
+
+      <p class="section-description">
+        Trabalho principalmente com Java e Spring Boot no backend
+        e Angular e TypeScript no frontend, além de PostgreSQL,
+        Git, Docker e outras ferramentas do ecossistema.
+      </p>
+
+      <p class="section-description">
+        Gosto de entender o problema antes de implementar a solução,
+        trabalhar com regras de negócio e transformar necessidades
+        reais em sistemas funcionais e bem estruturados.
+      </p>
+
+    </div>
 
   </section>
 
 
+  <!-- EXPERIÊNCIA -->
   <section id="experiencia" class="section">
 
-    <p class="section-label">02 — EXPERIÊNCIA</p>
+    <p class="section-label">
+      02 — EXPERIÊNCIA
+    </p>
 
     <h2>
-      Experiência profissional
+      Onde estou
+      <span>construindo experiência.</span>
     </h2>
 
     <div class="experience-card">
 
-      <div>
-        <h3>ConstruConnect</h3>
-        <p>Desenvolvedor Full Stack Jr.</p>
+      <div class="experience-header">
+
+        <div>
+          <h3>ConstruConnect</h3>
+
+          <p>
+            Desenvolvedor Full Stack Jr.
+          </p>
+        </div>
+
+        <span>
+          2026 — atual
+        </span>
+
       </div>
 
-      <span>2026</span>
+      <div class="experience-description">
+
+        <p>
+          Desenvolvimento e manutenção de aplicações web,
+          atuando tanto no frontend quanto no backend.
+        </p>
+
+        <ul>
+          <li>Desenvolvimento de APIs REST com Spring Boot</li>
+          <li>Desenvolvimento de interfaces com Angular e TypeScript</li>
+          <li>Integração com PostgreSQL</li>
+          <li>Implementação de regras de negócio</li>
+          <li>Manutenção e evolução de funcionalidades existentes</li>
+        </ul>
+
+      </div>
 
     </div>
 
   </section>
 
 
-  <section id="tecnologias" class="section">
+  <!-- O QUE EU FAÇO -->
+  <section class="section services">
 
-    <p class="section-label">03 — TECNOLOGIAS</p>
+    <p class="section-label">
+      03 — ATUAÇÃO
+    </p>
 
     <h2>
-      Minha stack
+      O que eu
+      <span>desenvolvo.</span>
     </h2>
 
-    <div class="technologies">
+    <div class="services-grid">
 
-      <span>Java</span>
-      <span>Spring Boot</span>
-      <span>Angular</span>
-      <span>TypeScript</span>
-      <span>PostgreSQL</span>
-      <span>Docker</span>
-      <span>Git</span>
-      <span>Redis</span>
+      <article class="service-card">
+
+        <span class="service-number">
+          01
+        </span>
+
+        <h3>Backend</h3>
+
+        <p>
+          APIs REST, regras de negócio, autenticação,
+          permissões e integração com bancos de dados
+          utilizando Java e Spring Boot.
+        </p>
+
+      </article>
+
+
+      <article class="service-card">
+
+        <span class="service-number">
+          02
+        </span>
+
+        <h3>Frontend</h3>
+
+        <p>
+          Interfaces web responsivas e aplicações
+          utilizando Angular, TypeScript, HTML e SCSS.
+        </p>
+
+      </article>
+
+
+      <article class="service-card">
+
+        <span class="service-number">
+          03
+        </span>
+
+        <h3>Banco de dados</h3>
+
+        <p>
+          Modelagem, consultas SQL, migrations e
+          integração de aplicações com PostgreSQL.
+        </p>
+
+      </article>
+
+
+      <article class="service-card">
+
+        <span class="service-number">
+          04
+        </span>
+
+        <h3>Full Stack</h3>
+
+        <p>
+          Desenvolvimento de aplicações completas,
+          conectando frontend, backend, banco de dados
+          e serviços externos.
+        </p>
+
+      </article>
 
     </div>
 
   </section>
 
 
-  <section id="projetos" class="section">
+  <!-- STACK -->
+  <section id="stack" class="section">
 
-    <p class="section-label">04 — PROJETOS</p>
+    <p class="section-label">
+      04 — STACK
+    </p>
 
     <h2>
-      Alguns trabalhos
+      Tecnologias que
+      <span>utilizo.</span>
+    </h2>
+
+    <div class="stack-groups">
+
+      <div class="stack-group">
+
+        <h3>Backend</h3>
+
+        <div class="technologies">
+          <span>Java</span>
+          <span>Spring Boot</span>
+          <span>JPA / Hibernate</span>
+          <span>Maven</span>
+        </div>
+
+      </div>
+
+
+      <div class="stack-group">
+
+        <h3>Frontend</h3>
+
+        <div class="technologies">
+          <span>Angular</span>
+          <span>TypeScript</span>
+          <span>HTML</span>
+          <span>SCSS</span>
+        </div>
+
+      </div>
+
+
+      <div class="stack-group">
+
+        <h3>Database</h3>
+
+        <div class="technologies">
+          <span>PostgreSQL</span>
+          <span>SQL</span>
+          <span>Flyway</span>
+          <span>Redis</span>
+        </div>
+
+      </div>
+
+
+      <div class="stack-group">
+
+        <h3>Ferramentas</h3>
+
+        <div class="technologies">
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Docker</span>
+          <span>DataGrip</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="section">
+
+    <p class="section-label">
+      05 — PROJETOS
+    </p>
+
+    <h2>
+      Projetos que
+      <span>estou construindo.</span>
     </h2>
 
     <div class="projects">
 
+
+      <!-- PROJETO 01 -->
       <article class="project-card">
 
-        <p>01</p>
+        <div class="project-top">
 
-        <h3>ConstruConnect</h3>
+          <span class="project-number">
+            01
+          </span>
 
-        <p>
-          Plataforma web para gestão e inteligência
-          de mercado na construção civil.
-        </p>
+          <span class="project-status">
+            EXPERIÊNCIA
+          </span>
 
-        <div class="project-technologies">
-          <span>Java</span>
-          <span>Spring Boot</span>
-          <span>Angular</span>
-          <span>PostgreSQL</span>
+        </div>
+
+        <div>
+
+          <h3>
+            ConstruConnect
+          </h3>
+
+          <p>
+            Plataforma web voltada para gestão e inteligência
+            de mercado na construção civil.
+          </p>
+
+        </div>
+
+        <div class="project-bottom">
+
+          <div class="project-technologies">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Angular</span>
+            <span>PostgreSQL</span>
+          </div>
+
         </div>
 
       </article>
 
 
+      <!-- PROJETO 02 -->
       <article class="project-card">
 
-        <p>02</p>
+        <div class="project-top">
 
-        <h3>Projeto pessoal</h3>
+          <span class="project-number">
+            02
+          </span>
 
-        <p>
-          Aplicação desenvolvida para demonstrar
-          arquitetura Full Stack.
-        </p>
+          <span class="project-status">
+            PESSOAL
+          </span>
 
-        <div class="project-technologies">
-          <span>Java</span>
-          <span>Spring Boot</span>
-          <span>Angular</span>
+        </div>
+
+        <div>
+
+          <h3>
+            Pulse API
+          </h3>
+
+          <p>
+            Plataforma de monitoramento de APIs para acompanhar
+            disponibilidade, status e tempo de resposta
+            de aplicações.
+          </p>
+
+        </div>
+
+        <div class="project-bottom">
+
+          <div class="project-technologies">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Angular</span>
+            <span>PostgreSQL</span>
+            <span>WebSocket</span>
+          </div>
+
         </div>
 
       </article>
+
+
+      <!-- PROJETO 03 -->
+      <article class="project-card">
+
+        <div class="project-top">
+
+          <span class="project-number">
+            03
+          </span>
+
+          <span class="project-status">
+            PESSOAL
+          </span>
+
+        </div>
+
+        <div>
+
+          <h3>
+            CasaCare
+          </h3>
+
+          <p>
+            Plataforma para conectar clientes a profissionais
+            especializados em serviços de manutenção residencial.
+          </p>
+
+        </div>
+
+        <div class="project-bottom">
+
+          <div class="project-technologies">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>PostgreSQL</span>
+            <span>Angular</span>
+          </div>
+
+        </div>
+
+      </article>
+
 
     </div>
 
   </section>
 
 
-  <section id="contato" class="section contact">
+  <!-- ATUALMENTE -->
+  <section class="section currently">
 
-    <p class="section-label">05 — CONTATO</p>
+    <p class="section-label">
+      06 — ATUALMENTE
+    </p>
 
     <h2>
-      Vamos conversar?
+      Sempre
+      <span>aprendendo.</span>
+    </h2>
+
+    <p class="section-description">
+      Atualmente estou aprofundando meus conhecimentos em
+      desenvolvimento Full Stack, arquitetura de software,
+      Java, Spring Boot e desenvolvimento de aplicações
+      modernas com Angular.
+    </p>
+
+    <div class="currently-list">
+
+      <span>→ Construindo projetos pessoais</span>
+      <span>→ Aprofundando Java e Spring Boot</span>
+      <span>→ Estudando arquitetura de software</span>
+      <span>→ Evoluindo minhas habilidades em Angular</span>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTATO -->
+  <section id="contato" class="section contact">
+
+    <p class="section-label">
+      07 — CONTATO
+    </p>
+
+    <h2>
+      Vamos
+      <span>conversar?</span>
     </h2>
 
     <p>
-      Estou aberto a novas oportunidades e projetos.
+      Estou aberto a novas oportunidades,
+      projetos e conexões profissionais.
     </p>
 
     <div class="contact-links">
 
-      <a href="https://github.com/BrunoJusti" target="_blank">
-        GitHub
+      <a
+        href="mailto:seuemail@email.com">
+        Email
       </a>
 
-      <a href="https://www.linkedin.com/in/brunojustidev/" target="_blank">
-        LinkedIn
+      <a
+        href="https://github.com/BrunoJusti"
+        target="_blank"
+        rel="noopener noreferrer">
+        GitHub ↗
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/brunojustidev/"
+        target="_blank"
+        rel="noopener noreferrer">
+        LinkedIn ↗
       </a>
 
     </div>

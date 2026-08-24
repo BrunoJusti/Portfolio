@@ -411,3 +411,265 @@ footer p {
   }
 
 }
+
+/* HERO LINKS */
+
+.hero-links {
+  display: flex;
+  gap: 1.5rem;
+
+  margin-top: 2rem;
+}
+
+.hero-links a {
+  color: #777;
+
+  text-decoration: none;
+
+  font-size: 0.85rem;
+
+  transition: color 0.2s ease;
+}
+
+.hero-links a:hover {
+  color: #fff;
+}
+
+
+/* SOBRE */
+
+.about-content {
+  max-width: 750px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+
+
+/* EXPERIÊNCIA */
+
+.experience-header {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-description {
+  max-width: 800px;
+
+  margin-top: 2rem;
+
+  color: #888;
+
+  line-height: 1.7;
+}
+
+.experience-description ul {
+  margin: 1.5rem 0 0;
+
+  padding-left: 1.2rem;
+}
+
+.experience-description li {
+  margin-bottom: 0.6rem;
+}
+
+
+/* ATUAÇÃO */
+
+.services-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 1px;
+
+  background: #222;
+
+  border: 1px solid #222;
+}
+
+.service-card {
+  min-height: 280px;
+
+  padding: 2rem;
+
+  background: #0a0a0a;
+
+  transition: background 0.3s ease;
+}
+
+.service-card:hover {
+  background: #0e0e0e;
+}
+
+.service-number {
+  color: #555;
+
+  font-size: 0.8rem;
+}
+
+.service-card h3 {
+  margin-top: 4rem;
+
+  color: #fff;
+
+  font-size: 1.7rem;
+}
+
+.service-card p {
+  max-width: 450px;
+
+  color: #777;
+
+  line-height: 1.7;
+}
+
+
+/* STACK */
+
+.stack-groups {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 3rem;
+}
+
+.stack-group h3 {
+  margin-bottom: 1rem;
+
+  color: #666;
+
+  font-size: 0.8rem;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.15em;
+}
+
+
+/* PROJETOS */
+
+.project-top {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-number {
+  color: #555;
+}
+
+.project-status {
+  color: #555;
+
+  font-size: 0.7rem;
+
+  letter-spacing: 0.12em;
+}
+
+.project-card h3 {
+  margin: 1rem 0;
+
+  color: #fff;
+
+  font-size: 2rem;
+}
+
+.project-card > div:nth-child(2) {
+  margin-top: auto;
+}
+
+.project-bottom {
+  margin-top: 2rem;
+}
+
+
+/* ATUALMENTE */
+
+.currently-list {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 0.75rem;
+
+  margin-top: 2rem;
+}
+
+.currently-list span {
+  padding: 0.7rem 1rem;
+
+  border: 1px solid #252525;
+
+  color: #777;
+
+  font-size: 0.85rem;
+}
+
+
+/* CONTATO */
+
+.contact h2 span {
+  color: #666;
+}
+
+.contact-links {
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  padding: 0.8rem 1.2rem;
+
+  border: 1px solid #252525;
+
+  border-radius: 999px;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.contact-links a:hover {
+  background: #fff;
+
+  border-color: #fff;
+
+  color: #000;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-header {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 1rem;
+  }
+
+  .hero-links {
+    flex-wrap: wrap;
+  }
+
+  .currently-list {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+}
